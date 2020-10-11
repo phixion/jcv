@@ -20,7 +20,7 @@ export default class WorkItem extends Component {
                         = [ <br/>
                         <span className="c-c dp-code-spacer">//{this.props.duration}</span><br/>
                         <span className="c-g dp-code-spacer">“{this.props.jobTitle}”</span>, <br/>
-                        <div className="c-g dp-code-spacer dp-work-experience-job-description">"Aufgaben:
+                        <div className="c-g dp-code-spacer dp-work-experience-job-description">"job details:
                             <p className="c-g dp-work-experience-job-description-list">{this.props.children}"</p>
                         </div>
                         ];<br/>

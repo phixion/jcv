@@ -9,42 +9,42 @@ export default class ProjectList extends Component {
             list: [
                 {
                     id: '1',
-                    title:'Typing with Glitch Effect',
-                    link: 'https://github.com/JlaPrs/glitch-text-effect',
+                    title:'UR44-Patch',
+                    link: 'https://github.com/phixion/arch_steinberg_ur44_patch',
                     platform: 'github',
                     text: {
-                        title: 'Glitch Effect',
-                        shortDescription: 'Typing with a fancy Glitch Effect'
+                        title: 'UR44-Patch',
+                        shortDescription: 'Kernel Patch for the Steinberg UR44 USB Audio Interface to work with Archlinux.'
                     }
                 },
                 {
                     id: '2',
-                    title:'Hover effekt on arrow button',
-                    link: 'https://codepen.io/jlaprs/pen/bZBWWp',
-                    platform: 'codepen',
-                    text: {
-                        title: 'Hover effect',
-                        shortDescription: 'SCSS hover on Arrow Button / ONLY CSS'
-                    }
-                },
-                {
-                    id: '3',
-                    title:'React counter Basics',
-                    link: 'https://codepen.io/jlaprs/pen/eXBKrV',
-                    platform: 'codepen',
-                    text: {
-                        title: 'ReAct Counter',
-                        shortDescription: 'ReAct basics - counter with reset button'
-                    }
-                },
-                {
-                    id: '3',
-                    title:'Titel',
-                    link: 'https://github.com/JlaPrs/draggable-ToDo-react-app',
+                    title:'Sopel-Modules',
+                    link: 'https://github.com/phixion/sopel-modules',
                     platform: 'github',
                     text: {
-                        title: 'ToDo list',
-                        shortDescription: 'Simple react app with an input  / shopping list'
+                        title: 'Sopel-Modules',
+                        shortDescription: 'A collection of modules for the  highly extensible IRC Bot framework Sopel.'
+                    }
+                },
+                {
+                    id: '3',
+                    title:'NV-Update',
+                    link: 'https://github.com/lord-carlos/nvidia-update',
+                    platform: 'github',
+                    text: {
+                        title: 'NV-Update',
+                        shortDescription: 'Powershell script to download and update nvidia drivers (contribution)'
+                    }
+                },
+                {
+                    id: '3',
+                    title:'PKG-Mirror',
+                    link: 'https://github.com/phixion/archmirror',
+                    platform: 'github',
+                    text: {
+                        title: 'PKG-Mirror',
+                        shortDescription: 'Hosting package repositories/iso archives for Archlinux, Tails, Ubuntu, Qubes and Slackware (france and finland, currently migrating to docker and larger storage)'
                     }
                 },
             ]

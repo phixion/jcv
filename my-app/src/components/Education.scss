@@ -17,12 +17,11 @@
     margin-top: 65px;
   }
 
-  ul
-  {
-    list-style-type:none;
-    margin-top:-10px;
-    max-width:370px;
-    padding:0;
+  ul {
+    list-style-type: none;
+    margin-top: -10px;
+    max-width: 370px;
+    padding: 0;
   }
 }
 
@@ -42,14 +41,14 @@
     svg {
       margin: 10px;
       font-size: 15px;
-      color: #C5C8D4;
+      color: #c5c8d4;
     }
     h1 {
       font-family: Lato, sans-serif;
       font-weight: 900;
       font-size: 14px;
       letter-spacing: 1.57px;
-      color: #C5C8D4;
+      color: #c5c8d4;
       margin: 0;
     }
   }
@@ -61,21 +60,37 @@
   .code-content {
     margin: 0;
     color: white;
-    .c-r { color: #A88038 }
-    .c-o { color: #DE7300 }
-    .c-y { color: #DE7300 }
-    .c-j { color: $dark }
-    .c-g { color: #74B087 }
-    .c-p { color: #9F8198 }
-    .c-b { color: #7A99AD }
-    .c-c { color: #909090 }
+    .c-r {
+      color: #a88038;
+    }
+    .c-o {
+      color: #de7300;
+    }
+    .c-y {
+      color: #de7300;
+    }
+    .c-j {
+      color: $dark;
+    }
+    .c-g {
+      color: #74b087;
+    }
+    .c-p {
+      color: #9f8198;
+    }
+    .c-b {
+      color: #7a99ad;
+    }
+    .c-c {
+      color: #909090;
+    }
 
     @media screen and (min-width: $screen-sm-min) {
       margin: 0 10px 10px;
     }
 
     .dp-link {
-      color: #7A99AD;
+      color: #7a99ad;
       font-weight: normal;
       font-family: "Space Mono", monospace, sans-serif;
       font-size: 14px;
@@ -88,17 +103,15 @@
   &-css {
     .code-content code {
       .line {
-
-
-
         &-5 {
           border-color: transparent;
-
         }
         &-2 {
           margin-left: 2rem;
         }
-        &-3, &-4, &-5 {
+        &-3,
+        &-4,
+        &-5 {
           margin-left: 4rem;
         }
       }
@@ -112,12 +125,12 @@
 
 .braclet-close:after {
   content: "}";
-  color: #DE7300;
+  color: #de7300;
 }
 
 // Animations
 .fade-in-left {
-  animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 /**
@@ -157,7 +170,7 @@
   }
 
   .code {
-    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     animation-delay: 1s;
 
     @media screen and (min-width: $screen-sm-min) {
@@ -167,7 +180,7 @@
 
   .dp-technical-skills {
     &-list {
-      animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation-delay: 3s;
     }
   }
