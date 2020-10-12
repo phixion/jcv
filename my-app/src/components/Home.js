@@ -25,13 +25,21 @@ export default class Home extends Component {
             young,
           </h3>
           <Typing.Delay ms={750} />
-          <h1>sysop with over 10 years of experience</h1>
+          <h1>sysop.</h1>
+          <br />
+          <h1>10 years of experience</h1>
           <Typing.Delay ms={750} />
           <p>
-            from <strong>Munich / Germany </strong>
+            from <strong>Munich</strong> / <strong>Germany</strong>
           </p>
           <p>
-           <strong>mail: m@rtin.ms • fon: +49 172 6955 451</strong>
+           mail: m<strong>@</strong>rtin.ms
+          </p>
+           <p>
+           <strong>fon: </strong>+49 172 6955 451
+          </p>
+           <p>
+           <strong>pgp: </strong>85D5 04E0 7899 676E
           </p>
         </Typing>
       </div>
